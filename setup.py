@@ -24,5 +24,5 @@ setup(
                                     'dist', '*.dist', 'dist.*', '*.dist.*',
                                     'examples', '*.examples', 'examples.*', '*.examples.*',
                                     'tests', '*.tests', 'tests.*', '*.tests.*']),
-    install_requires=['pyasn1', 'bitstring'],
+    install_requires=['pyasn1==0.4.5', 'bitstring'],
 )
