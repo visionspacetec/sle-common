@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='slecommon',
-    version='0.0.1',
+    version='0.0.2',
     author='VisionSpace Technologies GmbH',
     author_email="oss@visionspace.com",
     description='Python Space Link Extension Common Library',
