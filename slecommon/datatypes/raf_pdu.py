@@ -32,7 +32,7 @@ class RafGetParameterInvocation(univ.Sequence):
     )
 
 
-class RafUsertoProviderPdu(univ.Choice):
+class RafUserToProviderPdu(univ.Choice):
     componentType = namedtype.NamedTypes(
         namedtype.NamedType('rafBindInvocation', SleBindInvocation().subtype(
             implicitTag=tag.Tag(
@@ -167,7 +167,7 @@ class RafGetParameterReturn(univ.Sequence):
     )
 
 
-class RafProvidertoUserPdu(univ.Choice):
+class RafProviderToUserPdu(univ.Choice):
     componentType = namedtype.NamedTypes(
         namedtype.NamedType('rafBindInvocation', SleBindInvocation().subtype(
             implicitTag=tag.Tag(
